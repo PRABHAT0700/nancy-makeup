@@ -1,13 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@500&family=Lato&family=REM:wght@300;400&family=Roboto+Condensed&family=Ubuntu&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0px;
+  font-family: 'Lato', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+ 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar{
+   background-color: #ff7373c9;
+   box-shadow: 3px 2px 9px 1px;
 }
+
+.navbar-brand{
+  font-size: 1.9rem;
+  /* color: #565387; */
+}
+
+.navbar a{
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  color: white;
+
+}
+
+.nav-item .menu{
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+  color: red;
+}
+
+.navbar a:hover{
+  color: black;
+}
+
+
+.common-home-div{
+  background-image: url(https://i.pinimg.com/originals/ae/cb/a9/aecba986e7f0d1cc3ace448eeeb8d244.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 34rem;
+}
+
+.home-content-title{
+  margin-top: -70px;
+  line-height: 2rem;
+}
+
+.home-img{
+  width: 22rem;
+}
+
+
+.mt-3{
+    box-shadow: 7px 7px 7px 0 #000;
+    width: 115px;
+    border-radius: 7px;
+}
+
+.container-fluid .navbar-brand{
+   margin-left: 80px;
+   font-size: 30px;
+}
+
+.navbar-nav{
+  margin-right: 50px;
+}
+
+.brand-name{
+  color: #09aed0;
+}
+
+.about-cont{
+  margin-top: 3rem;
+}
+
+
+.card{
+  box-shadow: 0px 0px 8px 1px black;
+  margin-bottom: 50px;
+}
+
+
+.portfolioHead{
+  background: rgb(255,219,219);
+  background: radial-gradient(circle, rgba(255,219,219,1) 30%, rgba(148,187,233,1) 100%);
+}
+
+.contactMe-div{
+  background: rgb(255,219,219);
+  background: radial-gradient(circle, rgba(255,219,219,1) 30%, rgba(148,187,233,1) 100%);
+}
+
+
+.img-fluid{
+  margin-left: 80px;
+  height: 200px;
+  width: 400px;
+}
+
+.div1{
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+
+.maind{
+   width: 60%;
+   margin: 20px;
+}
+
+.maind2{
+  width: 350px;
+  height: 500px;
+  margin-bottom: 5rem;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px){
+
+  .navbar{
+    /* background-color: #1d1c1cc9; */
+    background-color: #ff7373c9;
+    box-shadow: 3px 2px 9px 1px;
+    width: 100%;
+ }
+
+   .navbar-brand{
+     font-size: 1.5rem;
+   }
+
+   .menu{
+    font-weight: bold;
+    border-bottom: none;
+   }
+
+
+
+.common-home-div{
+
+  /* background: rgb(236,236,236);
+  background: radial-gradient(circle, rgba(236,236,236,1) 34%, rgba(148,187,233,1) 91%); */
+  /* background: rgb(195,193,193);
+  background: radial-gradient(circle, rgba(195,193,193,1) 50%, rgba(233,148,148,1) 83%); */
+  background: rgb(232,236,237);
+  background: radial-gradient(circle, rgba(232,236,237,1) 51%, rgba(233,148,148,1) 98%);
+  height: auto;
+}
+
+.home-img{
+  width: 14rem;
+}
+
+.home-responsive-cont{
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.button-home-responsive{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .div1{
+  display: grid;
+  place-items: center;
+} */
+
+.card{
+  box-shadow: 0px 0px 8px 1px black;
+  margin-bottom: 50px;
+  height: 340px;
+  width: 240px;
+}
+
+/* .responsive-card{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+} */
+
+.div1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-respon-pic{
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+}
+
+
