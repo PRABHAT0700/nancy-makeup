@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/nancy-makeup/static/css/main.614a6aef.css",
+    "main.css": "/nancy-makeup/static/css/main.02352be7.css",
     "main.js": "/nancy-makeup/static/js/main.c652f9fc.js",
     "static/media/bride1.jpg": "/nancy-makeup/static/media/bride1.162f9419c5faaa210097.jpg",
     "static/media/poshak.jpg": "/nancy-makeup/static/media/poshak.7950dae340c32e3e6f00.jpg",
@@ -11,11 +11,11 @@
     "static/media/aboutPic.png": "/nancy-makeup/static/media/aboutPic.d1f734ba774a68502096.png",
     "static/media/nancyHome.png": "/nancy-makeup/static/media/nancyHome.5fff84597f8e31246654.png",
     "index.html": "/nancy-makeup/index.html",
-    "main.614a6aef.css.map": "/nancy-makeup/static/css/main.614a6aef.css.map",
+    "main.02352be7.css.map": "/nancy-makeup/static/css/main.02352be7.css.map",
     "main.c652f9fc.js.map": "/nancy-makeup/static/js/main.c652f9fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.614a6aef.css",
+    "static/css/main.02352be7.css",
     "static/js/main.c652f9fc.js"
   ]
 }
